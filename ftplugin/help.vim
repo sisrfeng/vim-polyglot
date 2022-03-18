@@ -94,7 +94,12 @@ if !exists('g:no_plugin_maps')
     let w:qf_toc = bufname
   endfunction
 
-  nnoremap <silent><buffer> gO :call <sid>show_toc()<cr>
+  " " 和这个文件完全一样:
+  " " /home/linuxbrew/.linuxbrew/Cellar/neovim/0.6.1/share/nvim/runtime/ftplugin/help.vim
+  " " 我只改了这行
+  nnoremap <silent><buffer> go :call <sid>show_toc()<cr>:call TOC_leo()<CR>
+    "
+
 endif
 
 let &cpo = s:cpo_save
