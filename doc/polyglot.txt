@@ -1,13 +1,6 @@
----+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---
- o | o   o | o   o | o   o | o   o | o   o | o   o | o   o | o   o 
----+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---
-
-*polyglot-vim-plugin*  Language pack for Vim
-
 CONFIGURATION                                    *polyglot.vim*
 
-You can disable vim-polyglot by putting using `g:polyglot_disabled`
-option. It needs to be defined before vim-polyglot is loaded.
+    It needs to be defined before vim-polyglot is loaded.
 
 ```
 let g:polyglot_disabled = ['javascript', 'autoindent', 'sensible']
@@ -19,11 +12,5 @@ What can be disabled:
 2. Support for detecting indentation like vim-sleuth ('autoindent')
 3. Default vim settings from vim-sensible  ('sensible')
 
-
-You can file bugs, and find more information at:
-
 https://github.com/sheerun/vim-polyglot
 
----+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---
- o | o   o | o   o | o   o | o   o | o   o | o   o | o   o | o   o 
----+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---
